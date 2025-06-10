@@ -1,0 +1,21 @@
+{
+  "name": "solvd-laba-nodejs-course",
+  "version": "1.0.0",
+  "description": "Solvd Laba Node JS course 2025",
+  "homepage": "https://github.com/JordanLarcher/Solvd-laba-Nodejs-course#readme",
+  "bugs": {
+    "url": "https://github.com/JordanLarcher/Solvd-laba-Nodejs-course/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JordanLarcher/Solvd-laba-Nodejs-course.git"
+  },
+  "license": "ISC",
+  "author": "Jordan Larcher",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "npm test"
+  }
+}
