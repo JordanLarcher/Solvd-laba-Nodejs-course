@@ -1,8 +1,6 @@
 
-import { customFilterUnique, chunkArray, customShuffle, getArrayIntersection, getArrayUnion,
-    measureArrayPerformance, 
-} from './AdvancedArrayFiltering.js';
-
+import AdvancedArrayFiltering from './AdvancedArrayFiltering.js';
+const { customFilterUnique, chunkArray, customShuffle, getArrayIntersection, getArrayUnion, measureArrayPerformance } = AdvancedArrayFiltering;
 // ============================================================================
 // EXAMPLES
 // ============================================================================
