@@ -19,7 +19,7 @@ class BinarySearchTree{
     }
     let temp = this.root;
     while(true){
-      if (newNode.value === temp.value) return undefined;
+      if (newNode.value === temp.value) { return undefined; }
       if(newNode.value < temp.value ){
         if(temp.left === null){
           temp.left = newNode;
@@ -65,7 +65,7 @@ class BinarySearchTree{
   // Breadth First Search 
   BFS(){
     let currentNode = this.root;
-    let resutls = [];
+    let results = [];
     let queue = [];
     queue.push(currentNode);
 
@@ -91,7 +91,7 @@ class BinarySearchTree{
   }
 
   // DFSInOrder
-  inOrder(node = this.root, result = []){
+  inOrder(node = this.root, results = []){
     function traverse(currentNode) {
       if (currentNode.left) traverse(currentNode.left);
       results.push(currentNode.value);
@@ -103,14 +103,14 @@ class BinarySearchTree{
 
   // Depth first search DFS 
   preOrder(){
-    let reuslts = [];
+    let results = [];
     function traverse(currentNode) {
       results.push(currentNode.value);
       if (currentNode.left) traverse(currentNode.left);
       if (currentNode.right) traverse(currentNode.right)
     }
     traverse(this.root);
-    return resutls;
+    return results;
   }
 
 

@@ -17,5 +17,11 @@
   "scripts": {
     "start": "node index.js",
     "test": "npm test"
+  },
+  "dependencies": {
+    "jslint": "^0.12.1"
+  },
+  "devDependencies": {
+    "eslint": "^9.33.0"
   }
 }
